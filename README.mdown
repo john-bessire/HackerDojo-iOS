@@ -3,3 +3,23 @@ Hacker Dojo iOS Application
 This is an open-source iOS app for Hacker Dojo members.  Hacker Dojo is a non-profit community center located in Mountain View, California.  It's a great place for creative types that love technology.
 
 Learn more about Hacker Dojo by going to [http://www.hackerdojo.com](http://www.hackerdojo.com)
+
+
+Checking out and building
+-------------------------
+The app uses the [Three20](http://github.com/facebook/three20) library and is set up as a submodule of this repo.  You'll need to checkout both this project and Three20 in order to build the project.
+
+
+```
+$ git clone http://github.com/marcomonteiro/HackerDojo-iOS.git
+$ git submodule init
+$ git submodule update
+$ cd three20
+$ git checkout 1.0.9
+```
+
+Notice
+------
+&copy; Copyright 2012 Marco Monteiro.  All rights reserved.
+
+My intention is to open source the application after it is released on the App Store.  Until further notice you are not allow to copy, distribute or modify the source code or any resulting binaries without my express permission.  You may download, modify and use the source code for your personal use if you are a Hacker Dojo member and an iOS developer but please keep in mind that the reason I haven't release it under an open source license is because it is not complete or ready for use.  Please feel free to contact me if you'd like to contribute to this project before it is made completely open.
