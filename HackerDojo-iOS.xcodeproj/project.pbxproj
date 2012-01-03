@@ -16,6 +16,10 @@
 		320CC833B8AF0ACFD35E6225 /* libThree20Style.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320CC833B8AF0ACFD35E6224 /* libThree20Style.a */; };
 		320D7DCCE32703ACAB9A45E5 /* libThree20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320D7DCCE32703ACAB9A45E4 /* libThree20.a */; };
 		320F2C48872C2E2C4DF86205 /* libThree20UI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320F2C48872C2E2C4DF86204 /* libThree20UI.a */; };
+		A91814E514B31EE500F1A7BA /* HDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A91814E414B31EE500F1A7BA /* HDTabBarController.m */; };
+		A91814E814B3212C00F1A7BA /* HDCheckInsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A91814E714B3212C00F1A7BA /* HDCheckInsViewController.m */; };
+		A91814EC14B3245F00F1A7BA /* checkins.png in Resources */ = {isa = PBXBuildFile; fileRef = A91814EA14B3245F00F1A7BA /* checkins.png */; };
+		A91814ED14B3245F00F1A7BA /* checkins@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A91814EB14B3245F00F1A7BA /* checkins@2x.png */; };
 		A9C5328914B2B18C002454AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C5328814B2B18C002454AF /* UIKit.framework */; };
 		A9C5328B14B2B18C002454AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C5328A14B2B18C002454AF /* Foundation.framework */; };
 		A9C5328D14B2B18C002454AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C5328C14B2B18C002454AF /* CoreGraphics.framework */; };
@@ -196,6 +200,12 @@
 		320CC833B8AF0ACFD35E6220 /* Three20Style.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20Style.xcodeproj; path = three20/src/Three20Style/Three20Style.xcodeproj; sourceTree = SOURCE_ROOT; };
 		320D7DCCE32703ACAB9A45E0 /* Three20.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20.xcodeproj; path = three20/src/Three20/Three20.xcodeproj; sourceTree = SOURCE_ROOT; };
 		320F2C48872C2E2C4DF86200 /* Three20UI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20UI.xcodeproj; path = three20/src/Three20UI/Three20UI.xcodeproj; sourceTree = SOURCE_ROOT; };
+		A91814E314B31EE500F1A7BA /* HDTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDTabBarController.h; sourceTree = "<group>"; };
+		A91814E414B31EE500F1A7BA /* HDTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDTabBarController.m; sourceTree = "<group>"; };
+		A91814E614B3212C00F1A7BA /* HDCheckInsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDCheckInsViewController.h; sourceTree = "<group>"; };
+		A91814E714B3212C00F1A7BA /* HDCheckInsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDCheckInsViewController.m; sourceTree = "<group>"; };
+		A91814EA14B3245F00F1A7BA /* checkins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkins.png; sourceTree = "<group>"; };
+		A91814EB14B3245F00F1A7BA /* checkins@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkins@2x.png"; sourceTree = "<group>"; };
 		A9C5328414B2B18C002454AF /* HackerDojo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HackerDojo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C5328814B2B18C002454AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A9C5328A14B2B18C002454AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -309,6 +319,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		A91814E914B3243300F1A7BA /* Artwork */ = {
+			isa = PBXGroup;
+			children = (
+				A91814EA14B3245F00F1A7BA /* checkins.png */,
+				A91814EB14B3245F00F1A7BA /* checkins@2x.png */,
+			);
+			name = Artwork;
+			sourceTree = "<group>";
+		};
 		A9C5327914B2B18C002454AF = {
 			isa = PBXGroup;
 			children = (
@@ -350,9 +369,14 @@
 		A9C5328E14B2B18C002454AF /* HackerDojo-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				A91814E914B3243300F1A7BA /* Artwork */,
 				A9C5329714B2B18C002454AF /* HDAppDelegate.h */,
 				A9C5329814B2B18C002454AF /* HDAppDelegate.m */,
 				A9C5328F14B2B18C002454AF /* Supporting Files */,
+				A91814E314B31EE500F1A7BA /* HDTabBarController.h */,
+				A91814E414B31EE500F1A7BA /* HDTabBarController.m */,
+				A91814E614B3212C00F1A7BA /* HDCheckInsViewController.h */,
+				A91814E714B3212C00F1A7BA /* HDCheckInsViewController.m */,
 			);
 			path = "HackerDojo-iOS";
 			sourceTree = "<group>";
@@ -598,6 +622,8 @@
 			files = (
 				320B6C86F11D9990244A9731 /* Three20.bundle in Resources */,
 				A9C5329314B2B18C002454AF /* InfoPlist.strings in Resources */,
+				A91814EC14B3245F00F1A7BA /* checkins.png in Resources */,
+				A91814ED14B3245F00F1A7BA /* checkins@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -634,6 +660,8 @@
 			files = (
 				A9C5329514B2B18C002454AF /* main.m in Sources */,
 				A9C5329914B2B18C002454AF /* HDAppDelegate.m in Sources */,
+				A91814E514B31EE500F1A7BA /* HDTabBarController.m in Sources */,
+				A91814E814B3212C00F1A7BA /* HDCheckInsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

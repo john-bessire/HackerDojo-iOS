@@ -7,6 +7,8 @@
 //
 
 #import "HDAppDelegate.h"
+#import "HDTabBarController.h"
+#import "HDCheckInsViewController.h"
 
 @implementation HDAppDelegate
 
@@ -19,11 +21,21 @@
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+{    
+    TTNavigator* navigator = [TTNavigator navigator];
+    navigator.persistenceMode = TTNavigatorPersistenceModeAll;
+    navigator.supportsShakeToReload = YES;
+    
+    TTURLMap* map = [navigator URLMap];
+    
+    [map from:@"*" toViewController:[TTWebController class]];
+    [map from:@"hdapp://start" toSharedViewController:[HDTabBarController class]];
+    [map from:@"hdapp://checkins" toSharedViewController:[HDCheckInsViewController class]];
+    
+    if (![navigator restoreViewControllers]) {
+        [navigator openURLs:@"hdapp://start", nil];
+    }
+    
     return YES;
 }
 
