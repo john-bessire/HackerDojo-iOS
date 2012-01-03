@@ -12,6 +12,7 @@ The app uses the [Three20](http://github.com/facebook/three20) library and is se
 
 ```
 $ git clone http://github.com/marcomonteiro/HackerDojo-iOS.git
+$ cd HackerDojo-iOS
 $ git submodule init
 $ git submodule update
 $ cd three20
