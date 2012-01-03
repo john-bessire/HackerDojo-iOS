@@ -1,0 +1,5 @@
+Hacker Dojo iOS Application
+===========================
+This is an open-source iOS app for Hacker Dojo members.  Hacker Dojo is a non-profit community center located in Mountain View, California.  It's a great place for creative types that love technology.
+
+Learn more about Hacker Dojo by going to [http://www.hackerdojo.com](http://www.hackerdojo.com)
