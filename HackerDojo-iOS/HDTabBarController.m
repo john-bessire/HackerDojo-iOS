@@ -12,7 +12,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setTabURLs:[NSArray arrayWithObjects:@"hdapp://checkins", nil]];
+    [self setTabURLs:[NSArray arrayWithObjects:@"hdapp://checkins", @"hdapp://events", nil]];
 }
 
 @end

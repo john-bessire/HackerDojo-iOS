@@ -20,6 +20,7 @@
 		A91814E814B3212C00F1A7BA /* HDCheckInsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A91814E714B3212C00F1A7BA /* HDCheckInsViewController.m */; };
 		A91814EC14B3245F00F1A7BA /* checkins.png in Resources */ = {isa = PBXBuildFile; fileRef = A91814EA14B3245F00F1A7BA /* checkins.png */; };
 		A91814ED14B3245F00F1A7BA /* checkins@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A91814EB14B3245F00F1A7BA /* checkins@2x.png */; };
+		A91814F014B3268500F1A7BA /* HDEventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A91814EF14B3268500F1A7BA /* HDEventsViewController.m */; };
 		A9C5328914B2B18C002454AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C5328814B2B18C002454AF /* UIKit.framework */; };
 		A9C5328B14B2B18C002454AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C5328A14B2B18C002454AF /* Foundation.framework */; };
 		A9C5328D14B2B18C002454AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C5328C14B2B18C002454AF /* CoreGraphics.framework */; };
@@ -206,6 +207,8 @@
 		A91814E714B3212C00F1A7BA /* HDCheckInsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDCheckInsViewController.m; sourceTree = "<group>"; };
 		A91814EA14B3245F00F1A7BA /* checkins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkins.png; sourceTree = "<group>"; };
 		A91814EB14B3245F00F1A7BA /* checkins@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkins@2x.png"; sourceTree = "<group>"; };
+		A91814EE14B3268500F1A7BA /* HDEventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDEventsViewController.h; sourceTree = "<group>"; };
+		A91814EF14B3268500F1A7BA /* HDEventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDEventsViewController.m; sourceTree = "<group>"; };
 		A9C5328414B2B18C002454AF /* HackerDojo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HackerDojo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C5328814B2B18C002454AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A9C5328A14B2B18C002454AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -377,6 +380,8 @@
 				A91814E414B31EE500F1A7BA /* HDTabBarController.m */,
 				A91814E614B3212C00F1A7BA /* HDCheckInsViewController.h */,
 				A91814E714B3212C00F1A7BA /* HDCheckInsViewController.m */,
+				A91814EE14B3268500F1A7BA /* HDEventsViewController.h */,
+				A91814EF14B3268500F1A7BA /* HDEventsViewController.m */,
 			);
 			path = "HackerDojo-iOS";
 			sourceTree = "<group>";
@@ -662,6 +667,7 @@
 				A9C5329914B2B18C002454AF /* HDAppDelegate.m in Sources */,
 				A91814E514B31EE500F1A7BA /* HDTabBarController.m in Sources */,
 				A91814E814B3212C00F1A7BA /* HDCheckInsViewController.m in Sources */,
+				A91814F014B3268500F1A7BA /* HDEventsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

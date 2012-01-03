@@ -9,6 +9,7 @@
 #import "HDAppDelegate.h"
 #import "HDTabBarController.h"
 #import "HDCheckInsViewController.h"
+#import "HDEventsViewController.h"
 
 @implementation HDAppDelegate
 
@@ -31,6 +32,7 @@
     [map from:@"*" toViewController:[TTWebController class]];
     [map from:@"hdapp://start" toSharedViewController:[HDTabBarController class]];
     [map from:@"hdapp://checkins" toSharedViewController:[HDCheckInsViewController class]];
+    [map from:@"hdapp://events" toSharedViewController:[HDEventsViewController class]];
     
     if (![navigator restoreViewControllers]) {
         [navigator openURLs:@"hdapp://start", nil];

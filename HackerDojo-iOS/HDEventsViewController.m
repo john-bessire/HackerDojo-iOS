@@ -1,23 +1,23 @@
 //
-//  HDCheckInsViewController.m
+//  HDEventsViewController.m
 //  HackerDojo-iOS
 //
 //  Created by Marco Monteiro on 1/3/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "HDCheckInsViewController.h"
+#import "HDEventsViewController.h"
 
-@implementation HDCheckInsViewController
+@implementation HDEventsViewController
 
 - (id)initWithNavigatorURL:(NSURL*)URL query:(NSDictionary*)query {
     self = [super initWithNibName:nil bundle:nil];
     if (self) {
-        self.title = @"Check In's";
+        self.title = @"Events";
         UITabBarItem *tabBarItem = [[UITabBarItem alloc] 
                                     initWithTitle:self.title 
                                     image:[UIImage imageNamed:@"checkins.png"] 
-                                    tag:0];
+                                    tag:1];
         self.tabBarItem = tabBarItem;
         [tabBarItem release];
     }
