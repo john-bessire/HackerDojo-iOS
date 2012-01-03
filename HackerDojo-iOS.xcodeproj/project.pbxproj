@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9C5328914B2B18C002454AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C5328814B2B18C002454AF /* UIKit.framework */; };
+		A9C5328B14B2B18C002454AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C5328A14B2B18C002454AF /* Foundation.framework */; };
+		A9C5328D14B2B18C002454AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C5328C14B2B18C002454AF /* CoreGraphics.framework */; };
+		A9C5329314B2B18C002454AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9C5329114B2B18C002454AF /* InfoPlist.strings */; };
+		A9C5329514B2B18C002454AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C5329414B2B18C002454AF /* main.m */; };
+		A9C5329914B2B18C002454AF /* HDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C5329814B2B18C002454AF /* HDAppDelegate.m */; };
+		A9C532A114B2B18C002454AF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C532A014B2B18C002454AF /* SenTestingKit.framework */; };
+		A9C532A214B2B18C002454AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C5328814B2B18C002454AF /* UIKit.framework */; };
+		A9C532A314B2B18C002454AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C5328A14B2B18C002454AF /* Foundation.framework */; };
+		A9C532AB14B2B18C002454AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9C532A914B2B18C002454AF /* InfoPlist.strings */; };
+		A9C532AE14B2B18C002454AF /* HackerDojo_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C532AD14B2B18C002454AF /* HackerDojo_iOSTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9C532A414B2B18C002454AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C5327B14B2B18C002454AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9C5328314B2B18C002454AF;
+			remoteInfo = "HackerDojo-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9C5328414B2B18C002454AF /* HackerDojo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HackerDojo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C5328814B2B18C002454AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A9C5328A14B2B18C002454AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A9C5328C14B2B18C002454AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A9C5329014B2B18C002454AF /* HackerDojo-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HackerDojo-iOS-Info.plist"; sourceTree = "<group>"; };
+		A9C5329214B2B18C002454AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9C5329414B2B18C002454AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9C5329614B2B18C002454AF /* HackerDojo-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HackerDojo-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		A9C5329714B2B18C002454AF /* HDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDAppDelegate.h; sourceTree = "<group>"; };
+		A9C5329814B2B18C002454AF /* HDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDAppDelegate.m; sourceTree = "<group>"; };
+		A9C5329F14B2B18C002454AF /* HackerDojo-iOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HackerDojo-iOSTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C532A014B2B18C002454AF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A9C532A814B2B18C002454AF /* HackerDojo-iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HackerDojo-iOSTests-Info.plist"; sourceTree = "<group>"; };
+		A9C532AA14B2B18C002454AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9C532AC14B2B18C002454AF /* HackerDojo_iOSTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HackerDojo_iOSTests.h; sourceTree = "<group>"; };
+		A9C532AD14B2B18C002454AF /* HackerDojo_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackerDojo_iOSTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9C5328114B2B18C002454AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C5328914B2B18C002454AF /* UIKit.framework in Frameworks */,
+				A9C5328B14B2B18C002454AF /* Foundation.framework in Frameworks */,
+				A9C5328D14B2B18C002454AF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C5329B14B2B18C002454AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C532A114B2B18C002454AF /* SenTestingKit.framework in Frameworks */,
+				A9C532A214B2B18C002454AF /* UIKit.framework in Frameworks */,
+				A9C532A314B2B18C002454AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9C5327914B2B18C002454AF = {
+			isa = PBXGroup;
+			children = (
+				A9C5328E14B2B18C002454AF /* HackerDojo-iOS */,
+				A9C532A614B2B18C002454AF /* HackerDojo-iOSTests */,
+				A9C5328714B2B18C002454AF /* Frameworks */,
+				A9C5328514B2B18C002454AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9C5328514B2B18C002454AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9C5328414B2B18C002454AF /* HackerDojo-iOS.app */,
+				A9C5329F14B2B18C002454AF /* HackerDojo-iOSTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9C5328714B2B18C002454AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9C5328814B2B18C002454AF /* UIKit.framework */,
+				A9C5328A14B2B18C002454AF /* Foundation.framework */,
+				A9C5328C14B2B18C002454AF /* CoreGraphics.framework */,
+				A9C532A014B2B18C002454AF /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9C5328E14B2B18C002454AF /* HackerDojo-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A9C5329714B2B18C002454AF /* HDAppDelegate.h */,
+				A9C5329814B2B18C002454AF /* HDAppDelegate.m */,
+				A9C5328F14B2B18C002454AF /* Supporting Files */,
+			);
+			path = "HackerDojo-iOS";
+			sourceTree = "<group>";
+		};
+		A9C5328F14B2B18C002454AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9C5329014B2B18C002454AF /* HackerDojo-iOS-Info.plist */,
+				A9C5329114B2B18C002454AF /* InfoPlist.strings */,
+				A9C5329414B2B18C002454AF /* main.m */,
+				A9C5329614B2B18C002454AF /* HackerDojo-iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9C532A614B2B18C002454AF /* HackerDojo-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9C532AC14B2B18C002454AF /* HackerDojo_iOSTests.h */,
+				A9C532AD14B2B18C002454AF /* HackerDojo_iOSTests.m */,
+				A9C532A714B2B18C002454AF /* Supporting Files */,
+			);
+			path = "HackerDojo-iOSTests";
+			sourceTree = "<group>";
+		};
+		A9C532A714B2B18C002454AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9C532A814B2B18C002454AF /* HackerDojo-iOSTests-Info.plist */,
+				A9C532A914B2B18C002454AF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9C5328314B2B18C002454AF /* HackerDojo-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9C532B114B2B18C002454AF /* Build configuration list for PBXNativeTarget "HackerDojo-iOS" */;
+			buildPhases = (
+				A9C5328014B2B18C002454AF /* Sources */,
+				A9C5328114B2B18C002454AF /* Frameworks */,
+				A9C5328214B2B18C002454AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HackerDojo-iOS";
+			productName = "HackerDojo-iOS";
+			productReference = A9C5328414B2B18C002454AF /* HackerDojo-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9C5329E14B2B18C002454AF /* HackerDojo-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9C532B414B2B18C002454AF /* Build configuration list for PBXNativeTarget "HackerDojo-iOSTests" */;
+			buildPhases = (
+				A9C5329A14B2B18C002454AF /* Sources */,
+				A9C5329B14B2B18C002454AF /* Frameworks */,
+				A9C5329C14B2B18C002454AF /* Resources */,
+				A9C5329D14B2B18C002454AF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9C532A514B2B18C002454AF /* PBXTargetDependency */,
+			);
+			name = "HackerDojo-iOSTests";
+			productName = "HackerDojo-iOSTests";
+			productReference = A9C5329F14B2B18C002454AF /* HackerDojo-iOSTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9C5327B14B2B18C002454AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A9C5327E14B2B18C002454AF /* Build configuration list for PBXProject "HackerDojo-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A9C5327914B2B18C002454AF;
+			productRefGroup = A9C5328514B2B18C002454AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9C5328314B2B18C002454AF /* HackerDojo-iOS */,
+				A9C5329E14B2B18C002454AF /* HackerDojo-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9C5328214B2B18C002454AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C5329314B2B18C002454AF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C5329C14B2B18C002454AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C532AB14B2B18C002454AF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A9C5329D14B2B18C002454AF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9C5328014B2B18C002454AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C5329514B2B18C002454AF /* main.m in Sources */,
+				A9C5329914B2B18C002454AF /* HDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C5329A14B2B18C002454AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C532AE14B2B18C002454AF /* HackerDojo_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9C532A514B2B18C002454AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9C5328314B2B18C002454AF /* HackerDojo-iOS */;
+			targetProxy = A9C532A414B2B18C002454AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9C5329114B2B18C002454AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9C5329214B2B18C002454AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A9C532A914B2B18C002454AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9C532AA14B2B18C002454AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9C532AF14B2B18C002454AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9C532B014B2B18C002454AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9C532B214B2B18C002454AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackerDojo-iOS/HackerDojo-iOS-Prefix.pch";
+				INFOPLIST_FILE = "HackerDojo-iOS/HackerDojo-iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A9C532B314B2B18C002454AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackerDojo-iOS/HackerDojo-iOS-Prefix.pch";
+				INFOPLIST_FILE = "HackerDojo-iOS/HackerDojo-iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A9C532B514B2B18C002454AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HackerDojo-iOS.app/HackerDojo-iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackerDojo-iOS/HackerDojo-iOS-Prefix.pch";
+				INFOPLIST_FILE = "HackerDojo-iOSTests/HackerDojo-iOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A9C532B614B2B18C002454AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HackerDojo-iOS.app/HackerDojo-iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackerDojo-iOS/HackerDojo-iOS-Prefix.pch";
+				INFOPLIST_FILE = "HackerDojo-iOSTests/HackerDojo-iOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9C5327E14B2B18C002454AF /* Build configuration list for PBXProject "HackerDojo-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C532AF14B2B18C002454AF /* Debug */,
+				A9C532B014B2B18C002454AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9C532B114B2B18C002454AF /* Build configuration list for PBXNativeTarget "HackerDojo-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C532B214B2B18C002454AF /* Debug */,
+				A9C532B314B2B18C002454AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9C532B414B2B18C002454AF /* Build configuration list for PBXNativeTarget "HackerDojo-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C532B514B2B18C002454AF /* Debug */,
+				A9C532B614B2B18C002454AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9C5327B14B2B18C002454AF /* Project object */;
+}
