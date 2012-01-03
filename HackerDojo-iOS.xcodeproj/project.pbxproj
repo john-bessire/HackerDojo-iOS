@@ -32,6 +32,8 @@
 		A9C532A314B2B18C002454AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C5328A14B2B18C002454AF /* Foundation.framework */; };
 		A9C532AB14B2B18C002454AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9C532A914B2B18C002454AF /* InfoPlist.strings */; };
 		A9C532AE14B2B18C002454AF /* HackerDojo_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C532AD14B2B18C002454AF /* HackerDojo_iOSTests.m */; };
+		A9C73B6214B32887001F7967 /* events.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C73B6014B32887001F7967 /* events.png */; };
+		A9C73B6314B32887001F7967 /* events@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C73B6114B32887001F7967 /* events@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -225,6 +227,8 @@
 		A9C532AA14B2B18C002454AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A9C532AC14B2B18C002454AF /* HackerDojo_iOSTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HackerDojo_iOSTests.h; sourceTree = "<group>"; };
 		A9C532AD14B2B18C002454AF /* HackerDojo_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackerDojo_iOSTests.m; sourceTree = "<group>"; };
+		A9C73B6014B32887001F7967 /* events.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = events.png; sourceTree = "<group>"; };
+		A9C73B6114B32887001F7967 /* events@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "events@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -325,6 +329,8 @@
 		A91814E914B3243300F1A7BA /* Artwork */ = {
 			isa = PBXGroup;
 			children = (
+				A9C73B6014B32887001F7967 /* events.png */,
+				A9C73B6114B32887001F7967 /* events@2x.png */,
 				A91814EA14B3245F00F1A7BA /* checkins.png */,
 				A91814EB14B3245F00F1A7BA /* checkins@2x.png */,
 			);
@@ -629,6 +635,8 @@
 				A9C5329314B2B18C002454AF /* InfoPlist.strings in Resources */,
 				A91814EC14B3245F00F1A7BA /* checkins.png in Resources */,
 				A91814ED14B3245F00F1A7BA /* checkins@2x.png in Resources */,
+				A9C73B6214B32887001F7967 /* events.png in Resources */,
+				A9C73B6314B32887001F7967 /* events@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

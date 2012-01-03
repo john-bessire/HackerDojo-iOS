@@ -16,7 +16,7 @@
         self.title = @"Events";
         UITabBarItem *tabBarItem = [[UITabBarItem alloc] 
                                     initWithTitle:self.title 
-                                    image:[UIImage imageNamed:@"checkins.png"] 
+                                    image:[UIImage imageNamed:@"events.png"] 
                                     tag:1];
         self.tabBarItem = tabBarItem;
         [tabBarItem release];
